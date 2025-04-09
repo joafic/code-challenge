@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import {computed, effect, inject, Injectable, signal, Signal, input} from '@angular/core';
-import { Product } from '../../models/products.model';
-import {AsyncPipe, CurrencyPipe, NgIf } from '@angular/common';
+import {inject} from '@angular/core';
+import {AsyncPipe } from '@angular/common';
 import { ProductsService } from '../../services/products.service';
 import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-product',
-  imports: [NgIf, AsyncPipe, CurrencyPipe, RouterLink],
+  imports: [AsyncPipe, RouterLink],
   template: `
     @for (product of (products$ | async); track product.id) {
       <div style="margin-bottom: 1rem;">
