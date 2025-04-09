@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop",
+        "price": 699,
+        "description": "A Laptop"
+    },
+    {
+        "id": 2,
+        "name": "Smartphone",
+        "price": 785,
+        "description": "A Smartphone"
+    },
+    {
+        "id": 3,
+        "name": "Watch",
+        "price": 89.9,
+        "description": "A Watch"
+    },
+    {
+        "id": 4,
+        "name": "Headset",
+        "price": 19.99,
+        "description": "A Headset"
+    },
+    {
+        "id": 5,
+        "name": "Keyboard",
+        "price": 10,
+        "description": "A Keyboard"
+    }
+]
